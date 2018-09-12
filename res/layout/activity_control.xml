@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/car_status" />
+
+    <Button
+        android:id="@+id/down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/up"
+        android:layout_below="@+id/up"
+        android:layout_marginTop="50dp"
+        android:text="@string/car_backward" />
+
+    <Button
+        android:id="@+id/left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/up"
+        android:layout_toLeftOf="@+id/up"
+        android:text="@string/car_left" />
+
+    <Button
+        android:id="@+id/right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/left"
+        android:layout_alignBottom="@+id/left"
+        android:layout_toRightOf="@+id/down"
+        android:text="@string/car_right" />
+
+    <Button
+        android:id="@+id/up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="104dp"
+        android:text="@string/car_forward" />
+
+    <Button
+        android:id="@+id/avoid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/down"
+        android:layout_marginTop="34dp"
+        android:layout_toLeftOf="@+id/down"
+        android:text="@string/avoid" />
+
+    <Button
+        android:id="@+id/follow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/avoid"
+        android:layout_alignBottom="@+id/avoid"
+        android:layout_alignLeft="@+id/right"
+        android:text="@string/follow" />
+
+    <Button
+        android:id="@+id/onegrasp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/avoid"
+        android:layout_below="@+id/avoid"
+        android:layout_marginTop="18dp"
+        android:text="@string/onegrasp" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/onegrasp"
+        android:layout_alignBottom="@+id/onegrasp"
+        android:layout_alignLeft="@+id/follow"
+        android:text="@string/stop" />
+
+    <Button
+        android:id="@+id/arm_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/up"
+        android:layout_alignLeft="@+id/right"
+        android:layout_marginBottom="43dp"
+        android:text="@string/arm_down" />
+
+    <Button
+        android:id="@+id/grasp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/up"
+        android:layout_toRightOf="@+id/left"
+        android:text="@string/grasp" />
+
+    <Button
+        android:id="@+id/arm_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/arm_down"
+        android:layout_alignBottom="@+id/arm_down"
+        android:layout_toLeftOf="@+id/up"
+        android:text="@string/arm_up" />
+
+</RelativeLayout>

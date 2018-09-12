@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">语音控制智能WiFi小车</string>
+    <string name="car_address">小车IP地址</string>
+    <string name="ip">192.168.1.1</string>
+    <string name="port">2001</string>
+    <string name="start">启动</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="default_message">Click button below!</string>
+    <string name="button_send">开始语音识别</string>
+    <string name="control_car">遥控小车</string>
+    
+    <string name="written">已发送</string>
+    <string name="error">发送错误</string>
+    <string name="clicked">已发送</string>
+    
+    <string name="title_activity_control">遥控小车</string>
+    <string name="car_status">ready to control the car!</string>
+    <string name="car_forward">前</string>
+    <string name="car_left">左</string>
+    <string name="car_right">右</string>
+    <string name="car_backward">后</string>
+    <string name="avoid">超声避障</string>
+    <string name="follow">识别跟踪</string>
+    <string name="stop">一键停止</string>
+    
+    <string name="title_activity_grasp">抓取控制</string>
+    <string name="arm_status">ready to control the arm!</string>
+    <string name="arm_up">上</string>
+    <string name="arm_left">左</string>
+    <string name="arm_right">右</string>
+    <string name="arm_down">下</string>
+    <string name="grasp">抓取</string>
+    <string name="onegrasp">一键抓取</string>
+    <string name="arm_stop">停止</string>
+
+</resources>
